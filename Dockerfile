@@ -12,6 +12,8 @@ ARG SUBMISSION_SUBFOLDER
 COPY $SUBMISSION_SUBFOLDER ./
 # Anything hereafter is rebuilt every time the Dockerfile is run
 
+COPY distributions.py ./
+
 # Bring fresh copies of test.sh and test.py into Docker image (in case student modified these on their fork)
 COPY test.py ./
 COPY test.sh ./

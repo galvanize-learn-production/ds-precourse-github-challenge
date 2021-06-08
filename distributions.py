@@ -1,4 +1,5 @@
-"""Probability mass functions for the Binomial, Poisson, and Geometric distributions"""
+# Reminder: you may not import any other packages!
+import math
 
 
 def binomial_pmf(n, p, k):
