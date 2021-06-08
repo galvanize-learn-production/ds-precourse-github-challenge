@@ -1,13 +1,13 @@
-from math import exp, comb, factorial
+import math
 
 
 def binomial_pmf(n, p, k):
-    return comb(n, k) * (1 - p)**(n - k) * p**k    
+    pass
 
 
 def poisson_pmf(k, lam):
-    return exp(-lam)**k / factorial(k)
+    pass
 
 
 def geometric_pmf(n, p):
-    return (1 - p)**(n - 1) * p
+    pass
