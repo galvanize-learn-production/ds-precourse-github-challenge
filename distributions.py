@@ -1,4 +1,4 @@
-# Reminder: you may not import any other packages!
+# Reminder: you may not use any other packages!
 import math
 
 
