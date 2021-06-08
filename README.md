@@ -1,29 +1,18 @@
-# Docker Testable Project Template
+# Github comprehension challenge
 
 ## Instructions
 
-1. Copy all files present (including `.gitignore`) to the repo where your testable project will be hosted.
-2. Populate `test_requirements.py` with any packages the unit test suite will require.
-3. Write your specific unit tests in `test.py`.
+1. Fork and clone this repository
+2. Complete the challenge as described below
+3. Commit and push your changes to remote
+4. Submit the URL to your fork on Learn
 
-### Dockerfile
+## Challenge
 
-The `Dockerfile` contains instructions for building the docker image. This shouldn't need modification for the most part.
+In `distributions.py`, implement the probability mass functions for the following distributions:
 
-### Unit test requirements
+* [Binomial](https://en.wikipedia.org/wiki/Binomial_distribution)
+* [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution)
+* [Geometric](https://en.wikipedia.org/wiki/Geometric_distribution)
 
-The text file `test_requirements.txt` contains Python package names separated by newlines. Any external packages required by `test.py` must go here. For example, a unit test suite which imports `matplotlib`, `numpy`, and `pandas` would look like this:
-
-```
-matplotlib
-numpy
-pandas
-```
-
-### Unit test suite
-
-The Python file `test.py` contains all unit tests to be run on the student's submission.
-
-## Docker test script
-
-The shell script `test.sh` is what Learn runs after the Docker image is finished building. This can contain anything, but will most likely need only to run the command `python3 ./test.py`.
+Do not modify the names of the function stubs present in `distributions.py`. Your solution should **not** import `stats` or any external packages (any packages not part of the Python standard library). You **may** use the `math` package.
