@@ -15,4 +15,4 @@ In `distributions.py`, implement the probability mass functions for the followin
 * [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution)
 * [Geometric](https://en.wikipedia.org/wiki/Geometric_distribution)
 
-Do not modify the names of the function stubs present in `distributions.py`. Your solution should **not** import `stats` or any external packages (any packages not part of the Python standard library). You **may** use the `math` package.
+Do not modify the names of the function stubs present in `distributions.py`. Your solution should **not** import any external packages (any packages not part of the Python standard library). You **may** use the `math` package.
