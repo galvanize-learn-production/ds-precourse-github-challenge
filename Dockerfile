@@ -16,7 +16,6 @@ COPY $SUBMISSION_SUBFOLDER ./
 
 # Overwrite anything that the student shouldn't touch
 COPY test.py ./
-COPY images/ ./images/
 
 # Always overwrite the test script that Learn will run
 COPY test.sh ./
